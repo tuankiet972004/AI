@@ -33,6 +33,7 @@ Pillow
 
 tkinter
 
+* Cài đặt thông qua requirements.txt (pip install -r requirements.txt)
 3. Cách sử dụng
 Khởi chạy giao diện:
 
