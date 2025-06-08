@@ -29,22 +29,3 @@ for box in boxes:
     cv2.waitKey(0)  # Nhấn phím bất kỳ để đóng cửa sổ
     cv2.destroyAllWindows()
 
-
-#
-# model = YOLO('runs/detect/train4/weights/best.pt')
-#         results = model(selected_image_path)  # Xử lý ảnh đã chọn bằng mô hình YOLO
-#
-#         for r in results:
-#             print(r.boxes)
-#             im_array = r.plot(line_width=3, font_size=2)  # Tạo hình ảnh với kết quả dự đoán
-#             im = Image.fromarray(im_array[..., ::-1])  # Chuyển đổi từ mảng NumPy sang hình ảnh PIL
-#
-#             # Resize ảnh theo kích thước của image_label (400x300)
-#             im = im.resize((400, 300))
-#
-#             # Chuyển hình ảnh thành định dạng mà Tkinter có thể hiển thị
-#             img_tk = ImageTk.PhotoImage(im)
-#
-#             # Cập nhật Label để hiển thị ảnh đã tìm biển số
-#             image_label.config(image=img_tk)
-#             image_label.image = img_tk  # Giữ tham chiếu để không bị xóa bởi Garbage Collector
