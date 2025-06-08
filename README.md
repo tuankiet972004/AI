@@ -1,4 +1,4 @@
-Mô hình Nhận Diện Biển Số Xe
+                                Mô hình Nhận Diện Biển Số Xe
 1. Chức năng của Sản phẩm
 Chọn ảnh đầu vào: Cho phép người dùng tải lên một ảnh xe có chứa biển số để xử lý.
 
@@ -15,8 +15,6 @@ Phần cứng
 CPU: Tối thiểu Intel i3 hoặc tương đương
 
 RAM: 4GB trở lên
-
-GPU (khuyến nghị): NVIDIA để tăng tốc YOLOv8 (tùy chọn)
 
 Phần mềm
 Python: Phiên bản 3.8 hoặc mới hơn
@@ -36,10 +34,6 @@ tkinter
 3. Cách sử dụng
 Khởi chạy giao diện:
 
-bash
-Copy
-Edit
-python your_script_name.py
 Chọn ảnh: Bấm “Chọn ảnh” và tải lên một ảnh có chứa biển số xe.
 
 Nhận diện: Bấm “Tìm biển số xe”. Ứng dụng sẽ tự động:
@@ -51,8 +45,8 @@ Cắt vùng biển số và nhận dạng ký tự bằng SVM
 Hiển thị kết quả lên giao diện
 
 4. Các Thông tin Khác
+
 Mô hình YOLOv8 đã được huấn luyện và lưu tại: runs/detect/train4/weights/best.pt
 
 Mô hình SVM huấn luyện để nhận diện ký tự từ ảnh nhị phân: model/svm_model.pkl
 
-Ứng dụng chạy hoàn toàn offline, xử lý cục bộ, đảm bảo quyền riêng tư.
