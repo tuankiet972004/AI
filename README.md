@@ -1,5 +1,6 @@
-                                Mô hình Nhận Diện Biển Số Xe
+                                      Mô hình Nhận Diện Biển Số Xe
 1. Chức năng của Sản phẩm
+
 Chọn ảnh đầu vào: Cho phép người dùng tải lên một ảnh xe có chứa biển số để xử lý.
 
 Nhận diện biển số (YOLOv8): Sử dụng mô hình YOLOv8 để xác định vùng chứa biển số trên ảnh.
@@ -11,6 +12,7 @@ Hiển thị kết quả: Trên giao diện hiển thị ảnh gốc, vùng bi�
 Thời gian xử lý: Hiển thị ngày giờ ảnh được thêm vào để theo dõi lịch sử thao tác.
 
 2. Yêu cầu Phần cứng và Phần mềm
+
 Phần cứng
 CPU: Tối thiểu Intel i3 hoặc tương đương
 
